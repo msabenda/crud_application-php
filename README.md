@@ -3,7 +3,7 @@
 ## Crud_Application ##
 
 
-### This is system which enables a user to create an account by signing up and then login by using credentials(email & password). Users information are stored in local database(mysql) using Xampp and are retrieved by using Hypertext preprocessor(php) for connection with database ###
+#### This is system which enables a user to create an account by signing up and then login by using credentials(email & password). Users information are stored in local database(mysql) using Xampp and are retrieved by using Hypertext preprocessor(php) for connection with database ####
 
 #### Additional the user/admin can delete other users once as login in the system ####
 
