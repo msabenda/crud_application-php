@@ -35,6 +35,8 @@ if (isset($_SESSION['id'])){
       
             <a href="../process/logout.php"> 
   <button class="btn btn-primary ">Log out</button>
+  
+  <a href="profile.php"><button class="btn btn-success ">My Profile</button></a>
   </a>
             </div>
         </div>
@@ -68,7 +70,7 @@ if (isset($_SESSION['id'])){
       <td><?=$user['email']?></td>
 
       <td>
-        <button type="button" class="btn btn-primary">Edit</button>
+       <a href="editUser.php?id=<?=$user['id']?>"><button type="button" class="btn btn-primary">Edit</button></a> 
        <a href="../process/delete.php?id=<?=$user['id']?>"><button type="button" class="btn btn-danger">Delete</button></a> 
       </td>
       </tr>
