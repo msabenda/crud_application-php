@@ -3,7 +3,7 @@
 ## Crud_Application ##
 
 
-### This is system which enables a user to create an account by signing up and then login by using credentials(email & password). Users information are stored in local database(mysql) using Xampp and are retrieved by using Hypertext preprocessor(php) for connection with database ###
+#### This is system which enables a user to create an account by signing up and then login by using credentials(email & password). Users information are stored in local database(mysql) using Xampp and are retrieved by using Hypertext preprocessor(php) for connection with database ####
 
 #### Additional the user/admin can delete other users once as login in the system ####
 
@@ -35,12 +35,12 @@
  + `$ sudo ./manager-linux-x64.run`
 
 2. Start the apache and mysql by simpliy click Start button.
-![Alt Apache$MySQql](/opt/lampp/htdocs/crud_application/read.png)
+![Alt Apache$MySQql](/read.png)
 
 3. Open myadmin session on a browser ['phpmyadmin](http://localhost/phpmyadmin).
 
 4. Create a database named 'crud' and table name is 'users' with 6 number of rows.
-![Alt Database](/opt/lampp/htdocs/crud_application/read3.png)
+![Alt Database](/read3.png)
 
 **OPENING A VISUAL STUDIO CODE**
 ---
@@ -48,7 +48,7 @@
 1. Open the vscode software, then open the cloned repository folder in /opt/lampp/htdocs/crud_application.
 
 2. Open signup.php file and fill your credentials then login and logout from your account.
-![Alt Signup](/opt/lampp/htdocs/crud_application/read1.png)
+![Alt Signup](/read1.png)
 
 
 **Crud_Application-php(Backend)**
