@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '' , 'crud');
+$conn = new mysqli('localhost', 'root', '' , 'task');
 
 // Checking the connection 
 if(!$conn){
